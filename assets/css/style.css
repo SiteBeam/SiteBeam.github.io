@@ -1,0 +1,44 @@
+body{
+    background-color: #540191;
+}
+a{
+    text-decoration: none;
+}
+.bg-tema{
+    background-color: #540191;
+}
+.text-tema{
+    color: #FEC30A !important;
+}
+.bg-tema-secundario{
+    background-color: #FEC30A;
+}
+.text-tema-secundario{
+    color: #540191 !important;
+}
+.bg-tema-terciario{
+    background-color: #35FFFF;
+}
+header{
+    z-index: 10;
+    position: sticky;
+    top: 0;
+}
+.navbar-toggler{
+ background-color: #FEC30A;
+}
+.btn-tema-nav:hover{
+    background-color: #35FFFF !important;
+    color: #540191 !important;
+}
+.btn-tema-nav{
+    color: #35FFFF !important;
+}
+.btn-tema{
+    background-color: #FEC30A !important;
+    color: #540191 !important;
+}
+.active{
+    background-color: #35FFFF !important;
+    color: #540191 !important;
+}
