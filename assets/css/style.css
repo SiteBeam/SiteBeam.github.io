@@ -17,7 +17,7 @@ a{
     color: #540191 !important;
 }
 .bg-tema-terciario{
-    background-color: #35FFFF;
+    background-color: #FF69F5;
 }
 header{
     z-index: 10;
@@ -44,4 +44,43 @@ header{
 }
 .slick-dotted.slick-slider {
     margin-bottom: 0px;
+}
+.form-control {
+    color: #FEC30A !important;
+    background-color: #540191 !important;
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid #FEC30A !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.form-control:focus {
+    color: #FEC30A !important;
+    background-color: #540191 !important;
+    border-color: #35FFFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #35ffff5b !important;
+}
+.form-select {
+    color: #FEC30A !important;
+    background-color: #540191 !important;
+    border: var(--bs-border-width) solid #FEC30A !important;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.form-select:focus {
+    border-color: #35FFFF !important;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #35ffff5b !important;
+}
+.transparente{
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .hero{
+        display: none;
+    }
 }

@@ -80,4 +80,13 @@ $(document).ready(function () {
     // Obtener año actual
     var anioActual = fechaActual.getFullYear();
     $("#anio").text(anioActual);
+    //formulario contacto
+    $("#contacto #asunto").change(function () {
+        var asunto = $("#contacto #asunto").val();
+        if (asunto == "6") {
+          $("#contacto #otro").removeClass("transparente");
+        } else {
+          $("#contacto #otro").addClass("transparente");
+        }
+      });
 });

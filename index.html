@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="">
+    <meta name="description" content="Ofrecemos soluciones de calidad a precios accesibles">
     <meta name="keywords" content="">
     <link rel="shortcut icon" href="assets/img/miniatura.svg" type="image/svg">
     <meta name="author" content="Julián Araya">
@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="assets/css/slick.theme.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/slick.min.js"></script>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 </head>
 
 <body>
@@ -70,7 +72,7 @@
             </div>
         </nav>
     </header>
-    <main>
+    <main id="principal">
         <!--seccion principal-->
         <div class="container mt-5">
             <div class="row">
@@ -81,7 +83,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-sm-6">
-                    <img class="w-100" src="assets/img/web.svg" alt="web">
+                    <img class="w-100 hero" src="assets/img/web.svg" alt="web">
                 </div>
             </div>
         </div>
@@ -144,16 +146,63 @@
         </div>
         <!--seccion nosotros-->
     </main>
-    <footer class="d-flex flex-wrap justify-content-between align-items-center p-3">
-        <div class="col-md-4 d-flex align-items-center">
-            <span class="mb-3 mb-md-0 text-tema">© <span id="anio"></span> SiteBeam</span>
+    <footer class="bg-tema-terciario pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <div class="card bg-tema">
+                        <form id="contacto" class="card-body" action="https://formsubmit.co/jul.sitebeam@gmail.com" method="post">
+                            <h3 class="text-tema">Contactanos</h3>
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label text-tema">Nombre</label>
+                                <select id="asunto" name="asunto" class="form-select">
+                                    <option selected>Selecciona una opción:</option>
+                                    <option value="1">Implementación de frameworks</option>
+                                    <option value="2">Desarrollo front-end</option>
+                                    <option value="3">Desarrollo de aplicaciones con JavaScript</option>
+                                    <option value="4">Diseño centrado en el usuario</option>
+                                    <option value="5">Optimización SEO</option>
+                                    <option value="6">Otro</option>
+                                  </select>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label text-tema">Nombre</label>
+                                <input type="text" class="form-control" name="nombre" id="nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="correo" class="form-label text-tema">Correo</label>
+                                <input type="text" class="form-control" name="correo" id="correo">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label text-tema">Teléfono</label>
+                                <input type="tel" class="form-control" name="telefono" id="telefono">
+                            </div>
+                            <div id="otro" class="transparente mb-3">
+                                <label for="mensaje" class="form-label text-tema">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" name="mensaje"></textarea>
+                            </div>
+                                <button type="submit" class="w-100 btn rounded-pill bg-tema-terciario">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="col-md-4 d-flex align-items-center">
+                        <span class="mb-3 mb-md-0 text-tema-secundario">© <span id="anio"></span> SiteBeam</span>
+                    </div>
+
+                    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex fs-2">
+                        <li class="ms-3"><a class="text-tema-secundario" href="#" target="_blank"><i
+                                    class="lab la-instagram"></i></a></li>
+                        <li class="ms-3"><a class="text-tema-secundario" href="#" target="_blank"><i
+                                    class="lab la-whatsapp"></i></a></li>
+                        <li class="ms-3"><a class="text-tema-secundario" href="mailto:jul.sitebeam@gmail.com"
+                                target="_blank"><i class="las la-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-tema" href="#">Instagram</a></li>
-            <li class="ms-3"><a class="text-tema" href="#">Whatsapp</a></li>
-            <li class="ms-3"><a class="text-tema" href="#">correo</a></li>
-        </ul>
     </footer>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
