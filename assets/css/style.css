@@ -42,3 +42,6 @@ header{
     background-color: #35FFFF !important;
     color: #540191 !important;
 }
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
+}
