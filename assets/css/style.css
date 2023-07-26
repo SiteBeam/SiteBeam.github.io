@@ -79,8 +79,36 @@ header{
 .transparente{
     display: none;
 }
+.plan{
+    cursor: pointer;
+    opacity: .5;
+}
+.plan:hover{
+    background-color: #FEC30A !important;
+    opacity: 1;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.plan-secundario{
+    height: 51vh;
+}
+.linea{
+   width: 100%;
+   background-color: #540191;
+   height: 5px;
+}
+#planes .active{
+    background-color: #FEC30A!important;
+    opacity: 1 !important;
+}
 @media screen and (max-width: 768px) {
     .hero{
         display: none;
+    }
+    .plan-secundario{
+        height: auto;
     }
 }

@@ -83,10 +83,25 @@ $(document).ready(function () {
     //formulario contacto
     $("#contacto #asunto").change(function () {
         var asunto = $("#contacto #asunto").val();
-        if (asunto == "6") {
+        if (asunto == "Otro") {
           $("#contacto #otro").removeClass("transparente");
         } else {
           $("#contacto #otro").addClass("transparente");
         }
       });
+    $("#basico").click(function () {
+        $(".plan").removeClass("active")
+        $(this).addClass("active")
+        $("#contacto #asunto").val("Plan basico");
+    });
+    $("#oferta").click(function () {
+        $(".plan").removeClass("active")
+        $(this).addClass("active")
+        $("#contacto #asunto").val("Oferta");
+    });
+    $("#premium").click(function () {
+        $(".plan").removeClass("active")
+        $(this).addClass("active")
+        $("#contacto #asunto").val("Plan premium");
+    });
 });
