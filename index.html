@@ -13,7 +13,8 @@
     </script>
     <meta charset="UTF-8">
     <meta name="description" content="Ofrecemos soluciones de calidad a precios accesibles">
-    <meta name="keywords" content="dominio, sitio web, aplicaciones web, android, economico, barato, hacer sitios web, hacer paginas, hacer aplicaciones, aplicaciones">
+    <meta name="keywords"
+        content="dominio, sitio web, aplicaciones web, android, economico, barato, hacer sitios web, hacer paginas, hacer aplicaciones, aplicaciones">
     <link rel="shortcut icon" href="assets/img/miniatura.svg" type="image/svg">
     <meta name="author" content="Julián Araya">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -159,11 +160,18 @@
             <div class="container pt-3 pb-3">
                 <h2 class="text-tema">Nuestros Planes</h2>
                 <div id="planes" class="row">
-                    <div class="col-12 col-sm-4 mb-2">
+                    <div class="col-12 col-sm-6 mb-2">
                         <div id="basico" class="plan plan-secundario card text-tema-secundario bg-tema-terciario">
                             <div class="card-body">
-                                <h3 class="fw-bold">Basico</h3>
-                                <span class="fs-3 fw-bold">$15.000 CLP</span>
+                                <div class="row">
+                                    <div class="col-6 d-flex align-items-end">
+                                        <span class="fs-1 fw-bold">Basico</span>
+                                    </div>
+                                    <div class="col-6 d-flex flex-column">
+                                        <span class="fs-6 fw-bold text-decoration-line-through">$15.000</span>
+                                        <span class="fs-2 fw-bold">$10.000</span>
+                                    </div>
+                                </div>
                                 <div class="linea rounded-pill mt-2 mb-2"></div>
                                 <ul>
                                     <li>Dominio personalizado</li>
@@ -178,33 +186,17 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-4 mb-2">
-                        <div id="oferta" class="plan card text-tema-secundario bg-tema-terciario">
-                            <div class="card-body">
-                                <h3 class="fw-bold">Oferta</h3>
-                                <div class="d-flex flex-column">
-                                    <span class="text-decoration-line-through fs-4 fw-bold">$15.000</span>
-                                    <span class="fs-2 fw-bold">$10.000 CLP</span>
-                                    <div class="linea rounded-pill mt-2 mb-2"></div>
-                                    <ul>
-                                        <li>Dominio personalizado</li>
-                                        <li>Almacenamiento de 500mb</li>
-                                        <li>Sitio web estatico</li>
-                                        <li>Optimización SEO</li>
-                                    </ul>
-                                    <div class="linea rounded-pill mt-2 mb-2"></div>
-                                    <div class="text-center fw-bold">
-                                        <span>Mantencion $2.000 mensual</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-4  mb-2">
+                    <div class="col-12 col-sm-6  mb-2">
                         <div id="premium" class="plan plan-secundario card text-tema-secundario bg-tema-terciario">
                             <div class="card-body">
-                                <h3 class="fw-bold">Premium</h3>
-                                <span class="fs-3 fw-bold">$20.000 CLP</span>
+                                <div class="row">
+                                    <div class="col-6 d-flex align-items-end">
+                                        <span class="fs-1 fw-bold">Premium</span>
+                                    </div>
+                                    <div class="col-6 d-flex align-items-end">
+                                        <span class="fs-2 fw-bold">$20.000</span>
+                                    </div>
+                                </div>
                                 <div class="linea rounded-pill mt-2 mb-2"></div>
                                 <ul>
                                     <li>Dominio personalizado</li>
@@ -223,6 +215,7 @@
                 </div>
             </div>
         </div>
+        <div id="diseno-1"></div>
         <!--seccion planes-->
     </main>
     <footer class="bg-tema-terciario pt-3 pb-3">
@@ -244,8 +237,10 @@
                                     <option value="Diseño sitio web">Diseño sitio web</option>
                                     <option value="Optimización SEO">Optimización SEO</option>
                                     <option value="Plan basico">Plan basico</option>
-                                    <option value="Oferta">Oferta</option>
                                     <option value="Plan premium">Plan premium</option>
+                                    <option value="One Page">One Page</option>
+                                    <option value="Landing Page">Landing Page</option>
+                                    <option value="Sitio Empresa">Sitio Empresa</option>
                                     <option value="Otro">Otro</option>
                                 </select>
                             </div>
