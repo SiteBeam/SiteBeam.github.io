@@ -117,7 +117,7 @@ $(document).ready(function () {
         $("#diseno-1 .card").append('<div class="card-body text-tema-secundario">' + contenido + '</div>');
         $("#diseno-1 .card-body").append('<div id="tiposPage" class="row"></div>');
         //one page
-        $("#diseno-1 #tiposPage").append('<div id="onePage" class="col-12 col-sm-4"></div>');
+        $("#diseno-1 #tiposPage").append('<div id="onePage" class="col-12 col-sm-4 mb-2"></div>');
         $("#diseno-1 #onePage").append('<div class="card border-0 bg-tema"></div>');
         $("#diseno-1 #onePage .card").append('<div class="card-body text-tema"></div>');
         var titulo1 = $("#diseno-1 h3").eq(0).html();
@@ -135,14 +135,14 @@ $(document).ready(function () {
         $("#diseno-1 #onePage .card-body").append('<div class="linea-secundaria rounded-pill mt-2 mb-2"></div>');
         $("#diseno-1 #onePage .card-body").append(lista1);
         //landing page
-        $("#diseno-1 #tiposPage").append('<div id="landingPage" class="col-12 col-sm-4"></div>');
+        $("#diseno-1 #tiposPage").append('<div id="landingPage" class="col-12 col-sm-4 mb-2"></div>');
         $("#diseno-1 #landingPage").append('<div class="card border-0 bg-tema"></div>');
         $("#diseno-1 #landingPage .card").append('<div class="card-body text-tema"></div>');
         $("#diseno-1 #landingPage .card-body").append('<div class="row"><div class="col-6"><span class="fs-4">'+titulo2+'</span></div><div class="col-6"><span class="fs-4 fw-bold">'+precio2+'</span></div> </div>');
         $("#diseno-1 #landingPage .card-body").append('<div class="linea-secundaria rounded-pill mt-2 mb-2"></div>');
         $("#diseno-1 #landingPage .card-body").append(lista2);
         //empresa page
-        $("#diseno-1 #tiposPage").append('<div id="empresaPage" class="col-12 col-sm-4"></div>');
+        $("#diseno-1 #tiposPage").append('<div id="empresaPage" class="col-12 col-sm-4 mb-2"></div>');
         $("#diseno-1 #empresaPage").append('<div class="card border-0 bg-tema"></div>');
         $("#diseno-1 #empresaPage .card").append('<div class="card-body text-tema"></div>');
         $("#diseno-1 #empresaPage .card-body").append('<div class="row"><div class="col-6"><span class="fs-4">'+titulo3+'</span></div><div class="col-6"><span class="fs-4 fw-bold">'+precio3+'</span></div> </div>');
