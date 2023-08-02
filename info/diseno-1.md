@@ -1,6 +1,6 @@
 ## De Pago Unico
 ### One Page
-### $50.000
+#### $50.000
 - Una sola  pagina con hasta 5 secciones (inicio, quienes somos, servicios, contacto, etc.)
 - Formulario contacto
 - Dominio y hosting por un año
@@ -11,7 +11,7 @@
 - Asesoría por 365 días
 
 ### Landing Page
-### $50.000
+#### $50.000
 - Hasta 5 secciones (inicio, quienes somos, servicios, contacto, etc.)
 - Formulario contacto
 - Dominio y hosting por un año
@@ -21,7 +21,7 @@
 - Certificado SSL
 - Asesoría por 365 días
 ### Sitio Empresa
-### $130.000
+#### $130.000
 - Hasta 5 paginas (inicio, quienes somos, servicios, contacto, etc.)
 - Formulario contacto
 - Dominio y hosting por un año
