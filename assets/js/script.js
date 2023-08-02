@@ -104,7 +104,7 @@ $(document).ready(function () {
         $(this).addClass("active")
         $("#contacto #asunto").val("Plan premium");
     });
-
+    //diseño precio tipo de sitio
     $("#diseno-1").load("info/diseno-1.md", function () {
         var converter = new showdown.Converter();
         var markdownText = $("#diseno-1").html();
